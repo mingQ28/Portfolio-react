@@ -1,9 +1,8 @@
+import NavBar from "../ui/NavBar"
 
 const Header = () => {
   return (
-    <div>
-        Header
-    </div>
+        <NavBar />
   )
 }
 
