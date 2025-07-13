@@ -1,9 +1,11 @@
-import NavBar from "../ui/NavBar"
+import NavBar from "../ui/NavBar";
 
 const Header = () => {
   return (
-        <NavBar />
-  )
-}
+    <div className="fixed top-0 w-full">
+      <NavBar />
+    </div>
+  );
+};
 
-export default Header
+export default Header;

@@ -1,9 +1,11 @@
-import NavBar from '../ui/NavBar'
+import NavBar from "../ui/NavBar";
 
 function Footer() {
   return (
-    <NavBar withEmoji={true} />
-  )
+    <div className="fixed bottom-0 w-full">
+      <NavBar withEmoji={true} />
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
