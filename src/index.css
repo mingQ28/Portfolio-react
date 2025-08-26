@@ -1,5 +1,9 @@
 @import "tailwindcss";
-
-html, body, #root {
-    @apply w-full h-full
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+html,
+body,
+#root {
+  @apply w-full h-full;
+  font-family: "Wanted Sans Variable", sans-serif;
+  font-weight: 700;
 }
