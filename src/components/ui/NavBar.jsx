@@ -1,21 +1,21 @@
 const navItems = [
   {
-    name: "Home",
+    name: "HOME",
     link: "/",
     emoji: "🏠",
   },
   {
-    name: "Introduce",
+    name: "INTRODUCE",
     link: "/",
     emoji: "💁‍♀️",
   },
   {
-    name: "Project",
+    name: "PROJECT",
     link: "/",
     emoji: "📂",
   },
   {
-    name: "Contact",
+    name: "CONTACT",
     link: "/",
     emoji: "📧",
   },
